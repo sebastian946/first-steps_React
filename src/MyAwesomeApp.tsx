@@ -21,10 +21,10 @@ export default function MyAwesomeApp() {
   };
   return (
     <>
-      <h1>{firstName}</h1>
-      <h3>{lastName}</h3>
-      <p>{favoriteGames.join(", ")}</p>
-      <h1>{isActive ? "Activo" : "Inactivo"}</h1>
+      <h1 data-testid="firstName">{firstName}</h1>
+      <h3 data-testid="lastName">{lastName}</h3>
+      <p data-testid="favoriteGames">{favoriteGames.join(", ")}</p>
+      <h1 data-testid="isActive">{isActive ? "Activo" : "Inactivo"}</h1>
 
       <p style={myStyles}>{JSON.stringify(address)}</p>
     </>
