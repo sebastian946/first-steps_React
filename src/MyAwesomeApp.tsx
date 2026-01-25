@@ -20,13 +20,13 @@ export default function MyAwesomeApp() {
     marginTop: 20,
   };
   return (
-    <>
+    <div data-testid="div-app">
       <h1 data-testid="firstName">{firstName}</h1>
       <h3 data-testid="lastName">{lastName}</h3>
       <p data-testid="favoriteGames">{favoriteGames.join(", ")}</p>
       <h1 data-testid="isActive">{isActive ? "Activo" : "Inactivo"}</h1>
 
       <p style={myStyles}>{JSON.stringify(address)}</p>
-    </>
+    </div>
   );
 }

@@ -17,4 +17,13 @@ describe("MyAwesomeApp Component", () => {
     const h1 = screen.getByTestId("firstName");
     expect(h1.innerHTML).toContain("Sebastian");
   });
+
+  test("Should mach snapshot", () => {
+    const { container } = render(<MyAwesomeApp />);
+    expect(container).toMatchSnapshot();
+  });
+  test("Should mach snapshot - screen", () => {
+    render(<MyAwesomeApp />);
+    expect(screen.getByTestId("div-app")).toMatchSnapshot();
+  });
 });

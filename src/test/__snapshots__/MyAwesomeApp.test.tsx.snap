@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp Component > Should mach snapshot - screen 1`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="firstName"
+  >
+    Sebastian
+  </h1>
+  <h3
+    data-testid="lastName"
+  >
+    Duque
+  </h3>
+  <p
+    data-testid="favoriteGames"
+  >
+    Metal Gear, Death Stranding, Cyberpunk 2077
+  </p>
+  <h1
+    data-testid="isActive"
+  >
+    Inactivo
+  </h1>
+  <p
+    style="background-color: blue; border-radius: 20px; padding: 10px; color: white; margin-top: 20px;"
+  >
+    {"zipCode":"12345","country":"Colombia"}
+  </p>
+</div>
+`;
+
+exports[`MyAwesomeApp Component > Should mach snapshot 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1
+      data-testid="firstName"
+    >
+      Sebastian
+    </h1>
+    <h3
+      data-testid="lastName"
+    >
+      Duque
+    </h3>
+    <p
+      data-testid="favoriteGames"
+    >
+      Metal Gear, Death Stranding, Cyberpunk 2077
+    </p>
+    <h1
+      data-testid="isActive"
+    >
+      Inactivo
+    </h1>
+    <p
+      style="background-color: blue; border-radius: 20px; padding: 10px; color: white; margin-top: 20px;"
+    >
+      {"zipCode":"12345","country":"Colombia"}
+    </p>
+  </div>
+</div>
+`;
